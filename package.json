@@ -9,7 +9,8 @@
     "dev": "tsx watch --env-file .env src/server.ts",
     "test:dev": "set NODE_OPTIONS=--experimental-vm-modules && npx jest --watchAll --runInBand",
     "build": "tsup src --out-dir build",
-    "start": "node build/server.js"
+    "start": "node build/server.js",
+    "postinstall": "prisma generate"
   },
   "author": "Murillo Ressineti",
   "license": "ISC",
