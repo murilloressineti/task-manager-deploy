@@ -1,0 +1,17 @@
+1. Setup inicial (Local) — instalar dependências, TypeScript, Express, Prisma, configurar .env, conectar ao Postgres local (ou docker).✅
+
+2. Modelagem / Prisma — criar schema Prisma e gerar migrations.✅
+
+3. Autenticação básica — signup/login com hashing (bcrypt) e JWT, rotas auth.✅
+
+4. CRUD Users / Teams / Tasks — endpoints REST, autorizações (roles).✅
+
+5. Validação & Zod — validações de payload das rotas.✅
+
+6. Testes unitários — Jest para rotas críticas (auth e tasks).✅
+
+7. Dockerizar — Dockerfile + docker-compose (app + postgres).✅
+
+8. Deploy — ajustar variáveis de ambiente e deploy no Render.✅
+
+9. Extras — task_history, documentação (README, Postman/Insomnia).✅
